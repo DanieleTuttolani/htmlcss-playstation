@@ -1,0 +1,9 @@
+/* TODO REMOVE MIN HEIGHT SECTION***************************************************/
+header{
+    min-height: 50px;
+}
+
+/*!header*****************************************/
+header{
+    background-color: black;
+}
