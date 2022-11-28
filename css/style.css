@@ -6,7 +6,8 @@ nav{
     min-height: 80px;
 }
 .jumbo,
-.new-jumbo{
+.new-jumbo,
+.sales{
     min-height: 600px
 }
 .related,
@@ -23,7 +24,9 @@ nav{
 .ps4,
 .ps4-title,
 .card-wrapper,
-.ps-plus{
+.ps-plus,
+.sale-title,
+.ps-now{
     min-height: 150px;
 }
 /*!utility**************************************/
@@ -35,6 +38,18 @@ nav{
     clear: both;
     display: table;
   }
+/*fixed proprietà*****************************************************/
+#main-navbar,
+header{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#main-navbar{
+    top: 50px;
+}
 /*!ps plus content**************************************************/
 .ps-plus-logo{
     height: 60px;
@@ -66,4 +81,10 @@ nav{
 }
 .ps-plus{
     background-color: rebeccapurple;
+}
+.sales{
+    background-color: rgb(140, 255, 255);
+}
+.ps-now{
+    background-color: rgb(0, 0, 83);
 }
