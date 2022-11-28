@@ -7,7 +7,8 @@ nav{
 }
 .jumbo,
 .new-jumbo,
-.sales{
+.sales,
+footer{
     min-height: 600px
 }
 .related,
@@ -59,7 +60,18 @@ header{
     float: right;
     margin-right: 80px;
 }
-
+/*!footer****************************************************************/
+.foot-list a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.sie-logo{
+    height: 50px;
+}
+.footer-bot{
+    max-width: 400px;
+}
 /*todo rimuovi colori*****************************************/
 header{
     background-color: black;
@@ -87,4 +99,7 @@ nav{
 }
 .ps-now{
     background-color: rgb(0, 0, 83);
+}
+footer{
+    background-color: blue;
 }
