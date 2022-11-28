@@ -1,3 +1,7 @@
+body{
+    padding-top: 130px;
+}
+
 /* TODO REMOVE MIN HEIGHT SECTION***************************************************/
 header{
     min-height: 50px;
@@ -38,7 +42,10 @@ footer{
     content: "";
     clear: both;
     display: table;
-  }
+}
+.img-index{
+    height: 50px;
+}
 /*fixed proprietà*****************************************************/
 #main-navbar,
 header{
@@ -51,10 +58,24 @@ header{
 #main-navbar{
     top: 50px;
 }
-/*!ps plus content**************************************************/
-.ps-plus-logo{
-    height: 60px;
+/*!header*************************************************/
+#sony-head-logo{
+    height: 20px;
 }
+/*!nav*******************************************************/
+.navbar a{
+    font-weight: bold;
+}
+
+
+
+/*!jumbo***********************************************/
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: top;
+    background-size: cover;
+}
+/*!ps plus**************************************************/
 .ps-plus-month-games{
     height: 300px;
     float: right;
@@ -66,9 +87,6 @@ header{
     color: white;
     cursor: pointer;
 }
-.sie-logo{
-    height: 50px;
-}
 .footer-bot{
     max-width: 400px;
 }
@@ -78,9 +96,6 @@ header{
 }
 nav{
     background-color: wheat;
-}
-.jumbo{
-    background-color: dodgerblue;
 }
 .related{
     background-color: lightgreen;
