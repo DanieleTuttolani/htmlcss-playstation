@@ -22,13 +22,29 @@ nav{
 .new-uscite-title,
 .ps4,
 .ps4-title,
-.card-wrapper{
+.card-wrapper,
+.ps-plus{
     min-height: 150px;
 }
 /*!utility**************************************/
 .bordo{
     border: 1px solid red;
 }
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+/*!ps plus content**************************************************/
+.ps-plus-logo{
+    height: 60px;
+}
+.ps-plus-month-games{
+    height: 300px;
+    float: right;
+    margin-right: 80px;
+}
+
 /*todo rimuovi colori*****************************************/
 header{
     background-color: black;
@@ -47,4 +63,7 @@ nav{
 }
 .new-jumbo{
     background-color: purple;
+}
+.ps-plus{
+    background-color: rebeccapurple;
 }
