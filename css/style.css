@@ -19,7 +19,10 @@ nav{
 .ps5-main-catalogue,
 .ps5-alt-catalogue,
 .catalogue-products,
-.new-uscite-title{
+.new-uscite-title,
+.ps4,
+.ps4-title,
+.card-wrapper{
     min-height: 150px;
 }
 /*!utility**************************************/
