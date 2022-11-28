@@ -5,10 +5,12 @@ header{
 nav{
     min-height: 80px;
 }
-.jumbo{
+.jumbo,
+.new-jumbo{
     min-height: 600px
 }
-.related{
+.related,
+.catalogue-uscite{
     height: 300px;
 }
 .ps5,
@@ -16,14 +18,15 @@ nav{
 .ps5-section-text,
 .ps5-main-catalogue,
 .ps5-alt-catalogue,
-.catalogue-products{
+.catalogue-products,
+.new-uscite-title{
     min-height: 150px;
 }
 /*!utility**************************************/
 .bordo{
     border: 1px solid red;
 }
-/*!header*****************************************/
+/*todo rimuovi colori*****************************************/
 header{
     background-color: black;
 }
@@ -38,4 +41,7 @@ nav{
 }
 .ps5{
     background-color: wheat;
+}
+.new-jumbo{
+    background-color: purple;
 }
