@@ -2,8 +2,40 @@
 header{
     min-height: 50px;
 }
-
+nav{
+    min-height: 80px;
+}
+.jumbo{
+    min-height: 600px
+}
+.related{
+    height: 300px;
+}
+.ps5,
+.ps5-section-title,
+.ps5-section-text,
+.ps5-main-catalogue,
+.ps5-alt-catalogue,
+.catalogue-products{
+    min-height: 150px;
+}
+/*!utility**************************************/
+.bordo{
+    border: 1px solid red;
+}
 /*!header*****************************************/
 header{
     background-color: black;
+}
+nav{
+    background-color: wheat;
+}
+.jumbo{
+    background-color: dodgerblue;
+}
+.related{
+    background-color: lightgreen;
+}
+.ps5{
+    background-color: wheat;
 }
