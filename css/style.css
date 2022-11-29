@@ -63,9 +63,6 @@ header{
 .navbar a{
     font-weight: bold;
 }
-
-
-
 /*!jumbo***********************************************/
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
@@ -73,11 +70,21 @@ header{
     background-size: cover;
     padding-top: 285px;
 }
+/*!ps5*******************************************************/
 /*!ps plus**************************************************/
 .ps-plus-month-games{
     height: 300px;
     float: right;
     margin-right: 80px;
+}
+/*!new games*******************************************************/
+.new-jumbo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+.new-jumbo img{
+    height: 260px;
 }
 /*!footer****************************************************************/
 .foot-list a{
@@ -93,9 +100,6 @@ header{
     background-color: black;
 }
 nav{
-    background-color: wheat;
-}
-.ps5{
     background-color: wheat;
 }
 .new-jumbo{
