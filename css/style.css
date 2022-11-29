@@ -7,15 +7,11 @@ nav{
     min-height: 80px;
 }
 .jumbo,
-.new-jumbo,
 .sales,
 footer{
     min-height: 600px
 }
 
-.catalogue-uscite{
-    height: 300px;
-}
 .ps5,
 .ps5-section-title,
 .ps5-section-text,
@@ -85,6 +81,11 @@ header{
 }
 .new-jumbo img{
     height: 260px;
+}
+
+
+.new-uscite{
+    background-color: #1f1f1f;
 }
 /*!footer****************************************************************/
 .foot-list a{
