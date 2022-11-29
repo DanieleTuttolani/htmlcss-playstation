@@ -3,9 +3,6 @@ body{
 }
 
 /* TODO REMOVE MIN HEIGHT SECTION***************************************************/
-header{
-    min-height: 50px;
-}
 nav{
     min-height: 80px;
 }
@@ -15,7 +12,7 @@ nav{
 footer{
     min-height: 600px
 }
-.related,
+
 .catalogue-uscite{
     height: 300px;
 }
@@ -72,8 +69,9 @@ header{
 /*!jumbo***********************************************/
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
-    background-position: top;
+    background-position: top center;
     background-size: cover;
+    padding-top: 285px;
 }
 /*!ps plus**************************************************/
 .ps-plus-month-games{
@@ -96,9 +94,6 @@ header{
 }
 nav{
     background-color: wheat;
-}
-.related{
-    background-color: lightgreen;
 }
 .ps5{
     background-color: wheat;
