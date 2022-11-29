@@ -1,30 +1,6 @@
 body{
     padding-top: 130px;
 }
-
-/* TODO REMOVE MIN HEIGHT SECTION***************************************************/
-nav{
-    min-height: 80px;
-}
-footer{
-    min-height: 600px
-}
-
-.ps5,
-.ps5-section-title,
-.ps5-section-text,
-.ps5-main-catalogue,
-.ps5-alt-catalogue,
-.catalogue-products,
-.new-uscite-title,
-.ps4,
-.ps4-title,
-.card-wrapper,
-.ps-plus,
-.sale-title,
-.ps-now{
-    min-height: 150px;
-}
 /*!utility**************************************/
 .bordo{
     border: 1px solid red;
@@ -53,6 +29,9 @@ header{
 #sony-head-logo{
     height: 20px;
 }
+header{
+    background-color: black;
+}
 /*!nav*******************************************************/
 .navbar a{
     font-weight: bold;
@@ -64,14 +43,20 @@ header{
     background-size: cover;
     padding-top: 285px;
 }
-/*!ps5*******************************************************/
-/*!ps plus**************************************************/
-.ps-plus-month-games{
-    height: 300px;
-    float: right;
-    margin-right: 80px;
+/*!related*************************************************************/
+.related .col{
+    transition: 0.3s linear;
 }
-/*!new games*******************************************************/
+.related .col:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+/*!ps5*******************************************************/
+.ps5-alt-catalogue .col:hover{
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+/*!new games*************************************************************/
 .new-jumbo{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: top center;
@@ -85,7 +70,26 @@ header{
 .new-uscite{
     background-color: #1f1f1f;
 }
+/*!ps4*************************************************************/
+/*!ps plus**************************************************/
+.ps-plus-month-games{
+    height: 300px;
+    float: right;
+    margin-right: 80px;
+}
+.ps-plus{
+    background-color: #bebcbb;
+}
+/*!sales*************************************************************/
+/*!ps now*************************************************************/
+.ps-now{
+    background-color: #161c3b;
+}
+/*!social*************************************************************/
 /*!footer****************************************************************/
+footer{
+    background-color: #00439c;
+}
 .foot-list a{
     text-decoration: none;
     color: white;
@@ -93,23 +97,4 @@ header{
 }
 .footer-bot{
     max-width: 400px;
-}
-/*todo rimuovi colori*****************************************/
-header{
-    background-color: black;
-}
-nav{
-    background-color: wheat;
-}
-.new-jumbo{
-    background-color: purple;
-}
-.ps-plus{
-    background-color: #bebcbb;
-}
-.ps-now{
-    background-color: #161c3b;
-}
-footer{
-    background-color: blue;
 }
